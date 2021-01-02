@@ -1,0 +1,22 @@
+
+  .menu{
+    display: flex;
+    width: 180px;
+    align-items: center;
+    
+  }
+  .menu:hover{
+    background-color:#fff5;
+  }
+  .menu img{ 
+    width: 100px;
+  } 
+  nav{
+    display: flex;
+    background-image: url(../../img/ricknmorty.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 10vh;
+  }
+  

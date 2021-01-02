@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import characters from '../img/characters1.png'
-import locations from '../img/locations1.jpg'
-import episodes from '../img/episodes.jpg'
+import characters from '../../../img/characters1.png'
+import locations from '../../../img/locations1.jpg'
+import episodes from '../../../img/episodes.jpg'
 
 function FindAnything() {
   return (

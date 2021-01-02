@@ -1,0 +1,61 @@
+.main{
+    margin-bottom: 20vh;
+}
+header{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10vh; 
+}
+header h1{
+    font-size: 3em;
+}
+header a{
+    border: 3px solid white;
+    background-color: #fff4;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: box-shadow .3s
+}
+header a:hover{
+    box-shadow: 0 0 15px white;
+}
+
+.findAnything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.findAnything h2{
+    margin: 20vh;
+    font-size: 2em;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.icons img{
+    width: 150px;
+    border-radius: 100px;
+}
+.icons .icon img:hover{
+    box-shadow: 0 0 15px white;
+}
+.icons .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons a{
+    text-decoration: none;
+    color: inherit;
+    padding-top: 10px;
+
+}
