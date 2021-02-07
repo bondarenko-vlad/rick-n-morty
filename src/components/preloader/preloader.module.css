@@ -1,0 +1,28 @@
+.preloader img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: preloader linear 3s infinite;
+}
+.preloader{
+    text-align: center;
+}
+.preloader p {
+    animation: loading linear 1s infinite;
+}
+@keyframes preloader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes loading{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

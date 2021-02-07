@@ -4,18 +4,18 @@ import Main from './components/Main/Main'
 import Footer from './components/Footer'
 import Menu from './components/Menu/Menu'
 import { BrowserRouter, Route } from 'react-router-dom';
-import Search from './components/Search/Search';
+import SearchContainer from './components/Search/SearchContainer';
 
 
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <BrowserRouter>
-      <Menu />
-      <Route exact path='/' component={Main} />
-      <Route path='/search' component={Search} />
-      <Footer />
+        <Menu />
+        <Route exact path='/' component={Main} />
+        <Route path='/characters' render={()=><SearchContainer />} />
+        <Footer />
       </BrowserRouter>
     </div>
   );
