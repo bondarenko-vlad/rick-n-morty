@@ -8,7 +8,7 @@
   color: white;
   background-color: black;
   min-height: 110vh;
-  padding: 20px;
+  padding: 0px;
 }
 footer{
   text-align: center;
@@ -16,4 +16,11 @@ footer{
   background-color: #2c2c2c;
   position: relative;
   padding:20px;
+}
+footer span{
+  text-shadow: 0 0 3px rgb(97, 231, 115);
+  cursor: pointer;
+}
+footer span:hover{
+  color: rgb(97, 231, 115);
 }

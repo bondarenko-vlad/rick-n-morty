@@ -1,0 +1,25 @@
+.modalWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color:#fff6;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(8px)
+}
+.modal{
+    width: 300px;
+    background: black;
+}
+.modal p, .modal h2 {
+    text-align: center;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 25px;
+}

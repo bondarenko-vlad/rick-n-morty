@@ -10,22 +10,22 @@ function FindAnything() {
       <h2>FIND ANYTHING</h2>
       <div className="icons">
         <div className="icon">
-          <NavLink to="/characters">
+          <NavLink to="/character">
             <img src={characters} alt="" />
           </NavLink>
-          <NavLink to="/characters">characters</NavLink>
+          <NavLink to="/character">characters</NavLink>
         </div>
         <div className="icon">
-          <NavLink to="/search">
+          <NavLink to="/location">
             <img src={locations} alt="" />
           </NavLink>
-          <NavLink to="/search">locations</NavLink>
+          <NavLink to="/location">locations</NavLink>
         </div>
         <div className="icon">
-          <NavLink to="/search">
+          <NavLink to="/episode">
             <img src={episodes} alt="" />
           </NavLink>
-          <NavLink to="/search">episodes</NavLink>
+          <NavLink to="/episode">episodes</NavLink>
         </div>
       </div>
     </div>

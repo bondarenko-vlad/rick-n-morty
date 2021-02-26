@@ -1,18 +1,20 @@
 const SET_CHAR = "SET_CHAR";
+const RESET_STATE = 'RESET_STATE'
+
 
 
 const initialState = {
   results: [],
   page: 1,
-  input: "",
   info: {}
 };
 const charactersReducer = (state = initialState, action) => {
   switch(action.type){
     case SET_CHAR:
-      return {results:action.data.results,
-      info: action.data.info,
-      url:'https://rickandmortyapi.com/api/character/?page=1'}
+      return {...state = action.data}
+    case RESET_STATE: 
+        return {...state = []}
+    
     
     default: return state
 
@@ -25,6 +27,13 @@ export const setCharAC = (data) => {
     data,
   };
 };
+export const resetState = () => {
+  return {
+    type: RESET_STATE
+  }
+}
+
+
 
 
 
